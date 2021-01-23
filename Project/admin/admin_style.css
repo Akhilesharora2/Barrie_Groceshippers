@@ -1,0 +1,55 @@
+#admin_login_art1{
+background-image: url('./admin.gif');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+#login_form{
+  color: #4d4dff;
+  padding: 5% 10%;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#login_form h1{
+  text-decoration: underline;
+}
+#login_form label{
+  margin-right: 4%;
+  color: white;
+}
+#login_form input{
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+#login_form label:hover{
+  font-weight: bold;
+  text-decoration: underline;
+}
+#submit_btn{
+  background: transparent;
+  color: blue;
+  float: right;
+  margin-top: 5%;
+  border-radius: 14px;
+}
+#submit_btn:hover{
+  font-weight: bold;
+  padding: 1% 2.4%;
+  /* margin: 3%; */
+}
+
+/* /////////////////////////////////////////////////////////////////====================== */
+#sort{
+  float: right;
+}
+#sort li{
+  list-style-type: none;
+}
+#confirmation{
+  display: none;
+}

@@ -1,0 +1,133 @@
+body{
+  overflow-x: hidden;
+}
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 80vh;
+}
+
+/* fieldset{
+  border: 4px solid black;
+  margin: 28px;
+} */
+/* ===================================================================== */
+#log , #sign{
+  justify-content: center;
+  display: none;
+}
+#login_form , #signup_form{
+  background: rgba(0, 0, 0, 0.7);
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  z-index: 1;
+  position: fixed;
+  text-align: center;
+  margin: 0% 20%;
+  justify-content: center;
+}
+#signup_form{
+    height: 80%;
+    position: absolute;
+    z-index: 100;
+}
+#login_form h2 , #signup_form h2{
+
+  color: White;
+}
+#login_form a, #signup_form a{
+  float: right;
+  margin-right: 10%;
+  font-weight: bold;
+}
+#login_form label , #signup_form label{
+  color: white;
+  font-weight: bold;
+}
+/* =================================================================== */
+.art2{
+  margin: 25px 5px;
+}
+ul.card_horz{
+  display: inherit;
+  overflow: auto;
+}
+ul.card_horz li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 10px;
+
+}
+ul li p{
+  margin: 0px -6px;
+  margin-bottom: 4px;
+}
+ul.card_horz li .card , ul.DOCards li .card{width: 250px;
+  height: 400px;
+}
+ ul.DOCards li{
+   float: left;
+   margin: 10px;
+   list-style-type: none;
+ }
+/* ========================================================== */
+.art3{
+  background:	#8B4513;
+  min-height: 50vh;
+}
+.col{
+  margin: 4% 5%;
+}
+.col img{
+  width: 25vh;
+}
+
+
+/* /////////// */
+.card_margins{
+  margin: 0% 20%;
+}
+.card_image{
+  margin: 10% 2%;
+  opacity: 1;
+display: block;
+width: 100%;
+height: 45vh;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+.card_btn{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+
+}
+.cards:hover .card_image {
+  opacity: 0.3;
+}
+.cards:hover .card_btn {
+  opacity: 1;
+}
+.card_btn{
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+
+
+/* ======================================================================== */
+footer{
+  background: #b8bdc2;
+}
+.foot{
+  margin: 0% 8%;
+}

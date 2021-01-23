@@ -1,0 +1,81 @@
+#helpsearch{
+    margin: 2% 10% 1% 30%;
+}
+#helpbar{
+   width: 60%;
+   height: 30px;
+}
+#helpbutton{
+    height: 30px;
+    /* width: 10%; */
+    font-weight: bold;
+}
+#helpbutton:hover{
+    background: transparent;
+    color: #ff913c;
+    border: 2px dotted red;
+    height: 40px;
+    width: 12%;
+}
+#filters{
+    float: left;
+    background-color: lightgrey;
+    margin: 2% 0% 0% 1%;
+    padding: 20px;
+    width: 15%;
+}
+div h2{
+    margin-top: 30px;
+}
+#dropdown{
+    margin-top: 18%;
+    margin-bottom: 2%;
+}
+.f1{
+    margin-left: 5%;
+    letter-spacing: 1px;
+
+}
+
+  /*help*/
+
+  h1,h2,h3{
+      text-align: center;
+      font-weight: bold;
+  }
+  .col-lg-3{
+      /* width: 20%; */
+      border: 2px solid black;
+      float: left;
+      margin: 1%;
+      margin-left: 7%;
+  }
+  .col-sm-12{
+    margin-right: 1%;
+  }
+  .col-lg-3 img{
+      float: left;
+      width: 25%;
+      height: 20%;
+      padding: 4%;
+  }
+  #block1{
+    display: block;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+  }
+#block2{
+  display: block;
+  width: 40%;
+  float: right;
+  margin-right: 5%;
+}
+  .rigthrow{
+      /* float: right; */
+      /* margin: 2% 35% 0% 2%; */
+  }
+  .leftrow{
+      /* float: left; */
+      /* margin: 2% 4% 0% 30%; */
+  }

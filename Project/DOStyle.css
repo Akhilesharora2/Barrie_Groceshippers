@@ -1,0 +1,19 @@
+.side_bar{
+  background: grey;
+  height: 28px;
+  width: 100%;
+}
+.side_bar p{
+  float: left;
+}
+.side_bar ul{
+  float: right;
+  margin-top: -8px;
+  margin-right: 5px;
+}
+.side_bar ul li{
+  list-style-type: none;
+}
+.side_bar ul li a{
+  color: black;
+}
